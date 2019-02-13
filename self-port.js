@@ -9,7 +9,7 @@ function draw(){
 strokeWeight(8);
 stroke("#8da669");
 fill("#a5c282");
-ellipse(width/2, 350, 245, 282);
+ellipse(width/2, 350, 245, 280);
 
 //Pithole
 strokeWeight(6);
@@ -28,6 +28,7 @@ stroke("#8da669");
 fill("white");
 ellipse(width/2-55, 330, 50, 50);
 
+strokeWeight(6);
 stroke("#8da669");
 fill("white");
 ellipse(width/2+55, 330, 50, 50);
@@ -58,6 +59,7 @@ line(475, 265, 525, 275);//x,y to hp,vp
 line(370, 275, 420, 265);
 
 //Freckles
+strokeWeight(6);
 point(515, 380);
 point(495, 370);
 point(400, 380);
@@ -71,6 +73,9 @@ point(455, 382);
 point(472, 360);
 
 //Mouth
+stroke("#8da669");
+fill("white");
+strokeWeight(6);
 arc(450, 400, 100, 100, 0, PI , CHORD);
 
 
