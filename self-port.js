@@ -66,11 +66,7 @@ point(455, 382);
 point(472, 360);
 
 //mouth
-//fill(white);
-//strokeWeight(8);
-//stroke("black");
-//arc(, 35, 50, 50, 0, -PI, CHORD);  //smile
-//line((width/2)-125, 350, 250, 300);
+arc(450, 400, 100, 100, 0, PI , CHORD);
 
 
 //arms
