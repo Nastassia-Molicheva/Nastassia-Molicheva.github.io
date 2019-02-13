@@ -9,7 +9,7 @@ function draw(){
 strokeWeight(8);
 stroke("#8da669");
 fill("#a5c282");
-ellipse(width/2, 350, 245, 290);
+ellipse(width/2, 350, 245, 282);
 
 //Pithole
 strokeWeight(6);
