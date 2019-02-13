@@ -21,30 +21,30 @@ ellipse(width/2, 215, 120, 40);
 strokeWeight(6);
 stroke("#8da669");
 fill("white");
-ellipse(width/2-55, 330, 50, 50)
+ellipse(width/2-55, 330, 50, 50);
 
 stroke("#8da669");
 fill("white");
-ellipse(width/2+55, 330, 50, 50)
+ellipse(width/2+55, 330, 50, 50);
 
 
 fill("skyblue");
 noStroke();
-ellipse(width/2+55, 335, 30, 30)
+ellipse(width/2+55, 335, 30, 30);
 
 fill("skyblue");
 noStroke();
-ellipse(width/2-55, 335, 30, 30)
+ellipse(width/2-55, 335, 30, 30);
 
 fill("white");
 strokeWeight(5);
 stroke("#000");
-ellipse(width/2+55, 340, 15, 15)
+ellipse(width/2+55, 340, 15, 15);
 
 fill("white");
 strokeWeight(5);
 stroke("#000");
-ellipse(width/2-55, 340, 15, 15)
+ellipse(width/2-55, 340, 15, 15);
 
 //brows
 strokeWeight(8);
