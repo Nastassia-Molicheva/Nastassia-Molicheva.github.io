@@ -34,23 +34,25 @@ fill("white");
 ellipse(width/2+55, 330, 50, 50);
 
 
-fill("skyblue");
+fill("skyblue");//iris right
 noStroke();
 ellipse(width/2+55, 335, 30, 30);
 
-fill("skyblue");
+fill("skyblue");//iris left
 noStroke();
 ellipse(width/2-55, 335, 30, 30);
 
-fill("white");
+fill("white");//pupil right
 strokeWeight(5);
 stroke("#000");
-ellipse(width/2+55, 340, 15, 15);
+ellipse(map(mouseX,0, width, 502,508), 340, 15, 15);
+//ellipse(width/2+55, 340, 15, 15);
 
-fill("white");
+fill("white");//pupil left
 strokeWeight(5);
 stroke("#000");
-ellipse(width/2-55, 340, 15, 15);
+ellipse(map(mouseX,0, width, 392,398), 340, 15, 15);
+//ellipse( width/2-55, 340, 15, 15);
 
 //Brows
 strokeWeight(8);
