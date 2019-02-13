@@ -52,6 +52,17 @@ stroke("#8da669");
 line(475, 265, 525, 275);//x,y to hp,vp
 line(370, 275, 420, 265);
 
+//freckles
+point(485, 280);
+point(495, 370);
+point(400, 380);
+point(385, 370);
+point(425, 380);
+point(455, 382);
+point(430, 360);
+point(480, 383);
+point(455, 382);
+
 //mouth
 //fill(white);
 //strokeWeight(8);
