@@ -49,6 +49,29 @@ background-color:#E53939;
 
 /***********************************/
 
+/* Other Links */
+ol{
+/*list-style-type: none; */
+font-size:24px;  
+font-family:"Gill Sans", Helvetica, Arial, sans-serif;
+}
+
+.hw a{
+	text-decoration: none;
+	color:#000;
+}
+
+.hw a:link{
+	color:#000;
+}
+
+.hw a:hover{
+	color:#E53939;
+}
+
+
+/***********************************/
+
 /* Pics */
 
 .center-responsive{ 
