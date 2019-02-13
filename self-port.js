@@ -51,13 +51,13 @@ ellipse(width/2-50, 335, 10, 10)
 //arc(, 35, 50, 50, 0, -PI, CHORD);  //smile
 
 //arms
-strokeWeight(5);
+strokeWeight(8);
 stroke("#8da669");
 line((width/2)+125, 350, 650, 300);//x,y to hp,vp
 line((width/2)-125, 350, 250, 300);
 
 //legs
-strokeWeight(5);
+strokeWeight(8);
 stroke("#8da669");
 line((width/2)+90, 450, 550, 550);//x,y to hp,vp
 line((width/2)-90, 450, 350, 550);
