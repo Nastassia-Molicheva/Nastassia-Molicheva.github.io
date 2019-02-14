@@ -15,12 +15,12 @@ ellipse(width/2, 350, 245, 280);
 strokeWeight(6);
 fill("#8da669");
 noStroke();
-ellipse(width/2, 225, 125, 38);
+ellipse(width/2, 225, 125, 37);
 
 strokeWeight(6);
 fill("#788f5b");
 noStroke();
-ellipse(width/2, 225, 105, 32);
+ellipse(width/2, 225, 105, 31);
 
 //Eyes
 strokeWeight(6);
@@ -45,7 +45,7 @@ ellipse(width/2-55, 335, 30, 30);
 fill("white");//pupil right
 strokeWeight(5);
 stroke("#000");
-ellipse(map(mouseX,0, width, 502,508), 340, 15, 15);
+ellipse(map(mouseX,0,width, 502,505), 340, 15, 15);
 //ellipse(width/2+55, 340, 15, 15);
 
 fill("white");//pupil left
