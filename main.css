@@ -52,7 +52,7 @@ background-color:#E53939;
 /* Other Links */
 ol{
 /*list-style-type: none; */
-font-size:24px;  
+font-size:20px;  
 font-family:"Gill Sans", Helvetica, Arial, sans-serif;
 }
 
@@ -111,13 +111,13 @@ body{
 h1{
     /* A Google Font*/
     font-family:"Gill Sans", Helvetica, Arial, sans-serif;	
-	font-size: 32px;
+	font-size: 30px;
 	margin-bottom: 0;
 	}
 h2{
     /* A Google Font*/
     font-family:"Gill Sans", Helvetica, Arial, sans-serif;	
-	font-size: 26px;
+	font-size: 24px;
 	margin-bottom: 0;
 	}
 
