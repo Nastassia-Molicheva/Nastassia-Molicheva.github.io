@@ -1,8 +1,3 @@
-a{
-font-size:24px;  
-font-family:"Gill Sans", Helvetica, Arial, sans-serif;
-}
-
 /* NAVBAR HORIZONTAL */
 .nav-container{ 	
 width:100%; 
@@ -19,7 +14,7 @@ width:100%;
 margin: auto;
 padding:0; 
 list-style-type: none; 
-font-size:16px;  
+font-size:20px;  
 font-family:"Gill Sans", Helvetica, Arial, sans-serif;
 }  
 
@@ -128,6 +123,6 @@ h2{
 
 p{
 	text-align: justify;
-    font-size: 16px;
+    font-size: 20px;
 	}
 
