@@ -5,29 +5,7 @@ function setup() {
 
 function draw(){
 	background("purple");
-  	image(img, 0, 0, img.width/10, img.height/10);
-
-translate(width/2, height/2);
-
-//Body
-strokeWeight(15);
-stroke("beige");
-fill("pink");
-rect(0, 0, 120, 80);
-
-//head
-strokeWeight(6);
-fill("beige");
-noStroke();
-ellipse(130, 10, 70, 70);
-
-//Paws
-strokeWeight(8);
-stroke("beige");
-line(120, 80, 140, 120);//x,y to hp,vp
-line(100, 80, 120, 120);//x,y to hp,vp
-line(20, 80, 40, 120);
-line(0, 80, 20, 120);
+  	image(img, 0, 0, img.width/11, img.height/11);
 
 
 
