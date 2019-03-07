@@ -5,7 +5,7 @@ function setup() {
 
 function draw(){
 	background("purple");
-  	image(img, 0, 0, img.width/11, img.height/11);
+  	image(img, 0, 0, img.width/12, img.height/12);
 
 
 
