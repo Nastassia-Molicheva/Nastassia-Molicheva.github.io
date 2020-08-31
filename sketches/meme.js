@@ -23,8 +23,8 @@ function setup() {
     labelBot.position(20, 80)
     inputTop.position(130, 65);
     inputBot.position(130, 95);
-    topText.position(200, 225)
-    bottomText.position(200, 425)
+    topText.position(325, 300)
+    bottomText.position(325, 500)
     btn.position(labelBot.x, labelBot.y + 40, 100)
 
 
@@ -32,7 +32,7 @@ function setup() {
 
     textAlign(CENTER);
 
-    img = loadImage(`drake.jpg`);
+    img = loadImage(`../images/drake.jpg`);
 }
 
 function draw(){
