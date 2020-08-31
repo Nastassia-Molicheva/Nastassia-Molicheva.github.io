@@ -1,7 +1,7 @@
-let img, 
+let img,
     inputTop, inputBot,
     labelTop,  labelBot,
-    topText, bottomText, 
+    topText, bottomText,
     btn;
 
 function setup() {
@@ -18,23 +18,23 @@ function setup() {
 
     inputTop.size(100);
     inputBot.size(100);
-       
+
     labelTop.position(20, 50);
     labelBot.position(20, 80)
     inputTop.position(110, 65);
-    inputBot.position(110, 95); 
+    inputBot.position(110, 95);
     topText.position(200, 225)
     bottomText.position(200, 425)
     btn.position(labelBot.x, labelBot.y + 40, 100)
-    
-    
+
+
     btn.mousePressed(fillMeme);
-    
+
     textAlign(CENTER);
-    
+
     img = loadImage(`images/drake.jpg`);
 }
-  
+
 function draw(){
     image(img, 0, 100, 400, 400);
 }
