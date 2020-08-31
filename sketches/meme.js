@@ -1,54 +1,50 @@
+let img,
+    inputTop, inputBot,
+    labelTop,  labelBot,
+    topText, bottomText,
+    btn;
+
 function setup() {
-	createCanvas(900, 600); 
-	img = loadImage('../assets/nyan_cat.png'); // Load the image 
+    createCanvas(400, 600);
+
+
+    labelTop = createElement(`p`, "Top Text");
+    labelBot = createElement('p', "Bottom Text");
+    inputTop = createInput();
+    inputBot = createInput();
+    topText = createElement('p')
+    bottomText = createElement('p');
+    btn = createButton("Submit");
+
+    inputTop.size(100);
+    inputBot.size(100);
+
+    labelTop.position(20, 50);
+    labelBot.position(20, 80)
+    inputTop.position(130, 65);
+    inputBot.position(130, 95);
+    topText.position(325, 300)
+    bottomText.position(325, 500)
+    btn.position(labelBot.x, labelBot.y + 40, 100)
+
+
+    btn.mousePressed(fillMeme);
+
+    textAlign(CENTER);
+
+    img = loadImage(`../images/drake.jpg`);
 }
 
 function draw(){
-	background("purple");
-  	image(img, 0, 0, img.width/15, img.height/15);
-if
-
-
-//Eyes
-//strokeWeight(6);
-//stroke("black");
-//fill("white");
-//ellipse(width/2-55, 330, 50, 50);
-
-//strokeWeight(6);
-//stroke("black");
-//fill("white");
-//ellipse(width/2+55, 330, 50, 50);
-
-
-//fill("white");//pupil right
-//strokeWeight(5);
-//stroke("#000");
-//ellipse(map(mouseX,0,width, 502,505), 340, 15, 15);
-//ellipse(width/2+55, 340, 15, 15);
-
-//fill("white");//pupil left
-//strokeWeight(5);
-//stroke("#000");
-//ellipse(map(mouseX,0, width, 392,398), 340, 15, 15);
-//ellipse( width/2-55, 340, 15, 15);
-
-//Brows
-//strokeWeight(8);
-//stroke("black");
-//line(475, 265, 525, 275);//x,y to hp,vp
-//line(370, 275, 420, 265);
-
-//moustache
-//strokeWeight(6);
-//line();
-
-//Mouth
-//stroke("#8da669");
-//fill("white");
-//strokeWeight(6);
-//arc(450, 400, 100, 100, 0, PI , CHORD);
-
+    image(img, 0, 100, 400, 400);
 }
+function fillMeme() {
+    const top =  inputTop.value();
+    const bot = inputBot.value();
 
+    topText.html(top);
+    bottomText.html(bot);
 
+    inputTop.value('');
+    inputBot.value('');
+}
