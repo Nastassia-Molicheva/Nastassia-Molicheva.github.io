@@ -1,161 +1,93 @@
-/* NAVBAR HORIZONTAL */
-.nav-container{ 	
-width:100%; 
-background-color: transparent;
-position:fixed; 
-margin:0;
-left:0;  
-top:0;
-/*box-shadow: 2px 2px 5px #273D52; */
-} 
-
-.nav-container ul{
+.nav-container{
 width:100%;
-margin: auto;
-padding:0; 
-list-style-type: none; 
-font-size:14px;  
-font-family:"Gill Sans", Helvetica, Arial, sans-serif;
-}  
-
-.nav-container li{
-float: right; 
-background-color: #F2ECE6;
-margin:5px;
-border-radius: 15px;
-}  
-
-.nav-container a{ 
-display: block;   
-box-sizing: border-box; 
-padding: 10px 10px;
-text-decoration: none; 
-text-align: center; 
-color:#0F0100;
-border-radius: 15px;
-} 
-
-.nav-container a:link{ 
-color:#0F0100; 
-border-radius: 15px;
-/*colors the buttons initially*/
+background-color: transparent;
+position:fixed center;
+margin:0;
+left:0;
+top:0;
+padding-bottom:20px;
+/*box-shadow: 2px 2px 5px #273D52; */
 }
 
-.nav-container a:hover{ 
-color:#F0ADA1;
-border-radius: 15px;
-/* changes link-box color on rollover*/ 
-}
-
-.nav-container a:active{ 
-background-color:#0F0100;
-border-radius: 15px;
-/* changes link-box color on click only*/ 
-}
-
-li.button {
-  background-color: #A55050; /* Some Red */
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  border-radius: 15px;
-}
-
-li.button a {
-	color:#F2ECE6;
+.nav-container h1{
+  font-family: 'Playfair Display', serif;
+	font-size: 22px;
+	margin-bottom: 20px;
+	padding:10px;
+	text-align: center;
 	border-radius: 15px;
 }
-/***********************************/
-
-/* Other Links */
-ol{
-/*list-style-type: none; */
-font-size:20px;  
-font-family:"Gill Sans", Helvetica, Arial, sans-serif;
-}
-
-/*.hw a{
-	text-decoration: none;
-	color:#000;
-	font-family:"Gill Sans", Helvetica, Arial, sans-serif;
-}
-
-.hw a:link{
-	color:#000;
-}
-
-.hw a:hover{
-	color:#E53939;
-}*/
-
-
-
-/***********************************/
-
 /* Pics */
 
-.center-responsive{ 
+.center-responsive{
 	/* use to center photos */
 	display:block;
-	max-width:100%; 
+	max-width:100%;
 	max-height: 100%;
 	margin:auto;
 	border-radius: 15px;
 
 	}
 
-.right-responsive{ 
+.right-responsive{
 	/* go right */
-	max-width:100%; 
-	max-height: 100%;
+	max-width:50%;
+	max-height: 50%;
 	float: right;
-	margin: 5px auto auto 25px;
-	border-radius: 15px;
+	margin:5px;
+	border-radius: 1px;
 	display:inline-block;
 
 	}
+  .left-responsive{
+  	/* go left */
+  	max-width:100%;
+  	max-height: 100%;
+  	float: left;
+  	margin: 25px 5px 25px 25px;
+  	border-radius: 1px;
+  	display:inline-block;
 
-
+  	}
 
 /***********************************/
 
 /*Text*/
 
 body{
-	margin: 80px 15% 50px 15%;
-	background-image: url("assets/conf-mini.png");
-	/* A Google Font*/
-	font-family: 'Merriweather', serif;	
-    font-size:16px; 
-	color:#273D52;
-	}
+  font-family: 'Montserrat', sans-serif;
+  font-size:18px;
+	margin: 80px 8% 50px 8%;
+  background-color: #fff3f1;
+  text-align: left;
+}
 
 h1{
     /* A Google Font*/
-    font-family:"Gill Sans", Helvetica, Arial, sans-serif;	
-	font-size: 30px;
+  font-family: 'Playfair Display', serif;
+	font-size: 42px;
 	margin-bottom: 0;
 	display:block;
-	background-color: #F2ECE6;
 	padding:10px;
-	text-align: center;
+	text-align: left;
 	border-radius: 15px;
 	}
+
 h2{
     /* A Google Font*/
-    font-family:"Gill Sans", Helvetica, Arial, sans-serif;	
-	font-size: 24px;
+  font-family: 'Playfair Display', serif;
+	font-size: 32px;
 	margin-bottom: 0;
 	display:block;
-	background-color: #F2ECE6;
 	padding:10px;
 	border-radius: 15px;
+  color: ff0100;
 	}
 
 h3{
    /* A Google Font*/
-  font-family:"Gill Sans", Helvetica, Arial, sans-serif;	
-	font-size: 20px;
+  font-family: 'Playfair Display', serif;
+	font-size: 18px;
 	margin-bottom: 0;
 	}
 
@@ -163,29 +95,21 @@ p{
 	text-align: justify;
 	}
 
+
 div.article-pink {
-	background-color:#F0ADA1; /* Pink */
-	padding: 20px;
-	border-radius: 15px;
-}
-div.article-yellow {
-	background-color: #F2A738; /* Honey? Yellow */
-	padding: 20px;
-	border-radius: 15px;
+	/*border: 1px solid #ff66c3; /* Bright Pink */
+	padding: 30px;
+  background-color: white;
 }
 
-div.article-blue {
-	background-color: #A1AEAF; /* Pale Blue */
-	padding: 20px;
-	border-radius: 15px;
-}
 
 div.article-red {
-	background-color: #A55050; /* Some Red */
-	padding: 20px;
-	border-radius: 15px;
-	color:#fff;
+ /* Some Bright Red */
+/*  border: 1px solid #FF0100;*/
+	padding: 30px;
+	color:#000;
 	text-align:center;
+  background-color: white;
 	/*color:#F2ECE6;*/
 }
 
@@ -196,26 +120,42 @@ div.article-red p{
 div.article-red a{
 	color:#F0ADA1;
 	font-size:35px;
-}
 
-div.article-red a{
-	color:#F0ADA1;
 }
 
 
 div.centered{
-	text-align:justify-all;
+	text-align:center;
+  padding: 10px;
 }
 
+
+/* Style all font awesome icons */
 /*IG Button*/
 .fa {
-  padding: 0px;
-  width: 70px;
+  padding: 10px;
+  font-size:50px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
-   color: white;
+  color: black;
 }
 
+/* Add a hover effect if you want */
+.fa:hover {
+  color: #ff0100;
+}
+/* linkedin */
+.fa-linkedin {
+  padding: 10px;
+}
 
- 
+/* instagram */
+.fa-instagram {
+  padding: 10px;
+}
+
+/* gmail */
+.fa-envelope-square {
+  padding: 10px;
+}
