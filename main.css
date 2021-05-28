@@ -1,140 +1,131 @@
-.nav-container{
-width:100%;
-background-color: transparent;
-position:fixed center;
-margin:0;
-left:0;
-top:0;
-padding-bottom:20px;
-/*box-shadow: 2px 2px 5px #273D52; */
+.nav-container {
+  width: 100%;
+  background-color: transparent;
+  position: fixed center;
+  margin: 0;
+  left: 0;
+  top: 0;
+  padding-bottom: 20px;
+  /*box-shadow: 2px 2px 5px #273D52; */
 }
 
-.nav-container h1{
+.nav-container h1 {
   font-family: 'Playfair Display', serif;
-	font-size: 22px;
-	margin-bottom: 20px;
-	padding:10px;
-	text-align: center;
-	border-radius: 15px;
+  font-size: 22px;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 15px;
 }
+
 /* Pics */
+.center-responsive {
+  /* use to center photos */
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  border-radius: 15px;
+}
 
-.center-responsive{
-	/* use to center photos */
-	display:block;
-	max-width:100%;
-	max-height: 100%;
-	margin:auto;
-	border-radius: 15px;
+.right-responsive {
+  /* go right */
+  max-width: 50%;
+  max-height: 50%;
+  float: right;
+  margin: 5px;
+  border-radius: 1px;
+  display: inline-block;
+}
 
-	}
-
-.right-responsive{
-	/* go right */
-	max-width:50%;
-	max-height: 50%;
-	float: right;
-	margin:5px;
-	border-radius: 1px;
-	display:inline-block;
-
-	}
-  .left-responsive{
-  	/* go left */
-  	max-width:100%;
-  	max-height: 100%;
-  	float: left;
-  	margin: 25px 5px 25px 25px;
-  	border-radius: 1px;
-  	display:inline-block;
-
-  	}
+.left-responsive {
+  /* go left */
+  max-width: 100%;
+  max-height: 100%;
+  float: left;
+  margin: 25px 5px 25px 25px;
+  border-radius: 1px;
+  display: inline-block;
+}
 
 /***********************************/
-
 /*Text*/
-
-body{
+body {
   font-family: 'Montserrat', sans-serif;
-  font-size:18px;
-	margin: 80px 8% 50px 8%;
+  font-size: 18px;
+  margin: 80px 8% 50px 8%;
   background-color: #fff3f1;
   text-align: left;
 }
 
-h1{
-    /* A Google Font*/
+h1 {
+  /* A Google Font*/
   font-family: 'Playfair Display', serif;
-	font-size: 42px;
-	margin-bottom: 0;
-	display:block;
-	padding:10px;
-	text-align: left;
-	border-radius: 15px;
-	}
+  font-size: 42px;
+  margin-bottom: 0;
+  display: block;
+  padding: 10px;
+  text-align: left;
+  border-radius: 15px;
+}
 
-h2{
-    /* A Google Font*/
+h2 {
+  /* A Google Font*/
   font-family: 'Playfair Display', serif;
-	font-size: 32px;
-	margin-bottom: 0;
-	display:block;
-	padding:10px;
-	border-radius: 15px;
+  font-size: 32px;
+  margin-bottom: 0;
+  display: block;
+  padding: 10px;
+  border-radius: 15px;
   color: ff0100;
-	}
+}
 
-h3{
-   /* A Google Font*/
+h3 {
+  /* A Google Font*/
   font-family: 'Playfair Display', serif;
-	font-size: 18px;
-	margin-bottom: 0;
-	}
+  font-size: 18px;
+  margin-bottom: 0;
+}
 
-p{
-	text-align: justify;
-	}
-
+p {
+  text-align: justify;
+}
 
 div.article-pink {
-	/*border: 1px solid #ff66c3; /* Bright Pink */
-	padding: 30px;
+  /*border: 1px solid #ff66c3; /* Bright Pink */
+  padding: 30px;
   background-color: white;
 }
-
 
 div.article-red {
- /* Some Bright Red */
-/*  border: 1px solid #FF0100;*/
-	padding: 30px;
-	color:#000;
-	text-align:center;
+  /* Some Bright Red */
+  /*  border: 1px solid #FF0100;*/
+  padding: 30px;
+  color: #000;
+  text-align: center;
   background-color: white;
-	/*color:#F2ECE6;*/
+  /*color:#F2ECE6;*/
 }
 
-div.article-red p{
-	text-align:center;
+div.article-red p {
+  text-align: center;
 }
 
-div.article-red a{
-	color:#F0ADA1;
-	font-size:35px;
-
+div.article-red a {
+  color: #F0ADA1;
+  font-size: 35px;
 }
 
-
-div.centered{
-	text-align:center;
+div.centered {
+  text-align: center;
   padding: 10px;
 }
-
 
 /* Style all font awesome icons */
 /*IG Button*/
 .fa {
   padding: 10px;
-  font-size:50px;
+  font-size: 50px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -145,6 +136,7 @@ div.centered{
 .fa:hover {
   color: #ff0100;
 }
+
 /* linkedin */
 .fa-linkedin {
   padding: 10px;
